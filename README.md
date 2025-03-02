@@ -6,7 +6,7 @@ Mythology Database project.
 
 ```bash
 # Clone the repo
-git clone [your-repo-url]
+git clone https://github.com/BatetDev/project-myth
 
 # Install dependencies
 npm install
