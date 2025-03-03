@@ -4,4 +4,29 @@ body {
 
 .hero {
   background-color: seashell;
+  padding: 1rem;
+}
+
+#myth-container {
+  background-color: skyblue;
+  padding: 1rem;
+}
+
+.myth-card {
+  background-color: wheat;
+  padding: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 6px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.tags .tag {
+  background-color: beige;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
 }
