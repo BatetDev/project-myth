@@ -1,24 +1,31 @@
 import myths from '../../data/myths.json';
 
 export function renderMythCards() {
-  const mythContainer = document.createElement('div');
-  mythContainer.id = 'myth-container';
+  const cardContainer = document.createElement('div');
+  cardContainer.classList.add('card-container');
 
   myths.forEach(myth => {
     const card = document.createElement('div');
-    card.classList.add('myth-card');
+    card.classList.add('card');
 
     card.innerHTML = `
-      <img src="${myth.image}" alt="${myth.title}">
-      <h2>${myth.title}</h2>
-      <p>${myth.description}</p>
+      <div class="name">${myth.title}</div>
+      <div class="image-container">
+        <img src="${myth.image}" alt="${myth.title}" />
+      </div>
       <div class="tags">
-        ${myth.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+        ${myth.tags.map(tag => `<span>${tag}</span>`).join('')}
+      </div>
+      <div class="description">
+        ${myth.description}
+      </div>
+      <div class="quote">
+        ${myth.quote || '"Even the greatest myths echo through eternity."'}
       </div>
     `;
 
-    mythContainer.appendChild(card);
+    cardContainer.appendChild(card);
   });
 
-  return mythContainer;
+  return cardContainer;
 }

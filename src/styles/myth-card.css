@@ -1,0 +1,88 @@
+.card {
+  background: linear-gradient(145deg, #1e1e1e, #2a2a2a);
+  border: 2px solid #4a4a4a;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  width: 320px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.name {
+  font-family: Cinzel, serif;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #ffdd99; /* Golden text for elegance */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.image-container {
+  width: 100%;
+  height: 220px; /* Slightly taller for better proportions */
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.image-container:hover img {
+  transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.tags {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tags span {
+  background-color: #333; /* Darker background for contrast */
+  color: #ffdd99; /* Golden text for consistency */
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: background-color 0.3s ease;
+}
+
+.tags span:hover {
+  background-color: #ffdd99; /* Invert colors on hover */
+  color: #121212;
+}
+
+.description {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ccc;
+  background-color: #1e1e1e;
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 12px;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 13px;
+  color: #aaa;
+  margin-top: auto; /* Pushes quote to the bottom */
+}

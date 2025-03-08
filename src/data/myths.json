@@ -3,42 +3,49 @@
     "image": "https://via.placeholder.com/150?text=Zeus",
     "title": "Zeus",
     "description": "The king of the gods, ruler of Mount Olympus, and god of the sky, lightning, and thunder.",
-    "tags": ["god", "sky", "lightning", "Olympian"]
+    "tags": ["god", "sky", "lightning", "Olympian"],
+    "quote": "Even the bravest hero must face his fate."
   },
   {
     "image": "https://via.placeholder.com/150?text=Athena",
     "title": "Athena",
     "description": "The goddess of wisdom, warfare, and crafts. She is known for her strategic skill in battle.",
-    "tags": ["goddess", "wisdom", "warfare", "Olympian"]
+    "tags": ["goddess", "wisdom", "warfare", "Olympian"],
+    "quote": "Even the bravest hero must face his fate."
   },
   {
     "image": "https://via.placeholder.com/150?text=Poseidon",
     "title": "Poseidon",
     "description": "The god of the sea, earthquakes, and horses. He wields the trident as his symbol of power.",
-    "tags": ["god", "sea", "earthquake", "Olympian"]
+    "tags": ["god", "sea", "earthquake", "Olympian"],
+    "quote": "Even the bravest hero must face his fate2."
   },
   {
     "image": "https://via.placeholder.com/150?text=Hades",
     "title": "Hades",
     "description": "The god of the underworld and the dead. He rules over the afterlife from his dark kingdom.",
-    "tags": ["god", "underworld", "death", "non-Olympian"]
+    "tags": ["god", "underworld", "death", "non-Olympian"],
+    "quote": "Even the bravest hero must face his fate."
   },
   {
     "image": "https://via.placeholder.com/150?text=Heracles",
     "title": "Heracles",
     "description": "A legendary hero known for his incredible strength and the completion of the Twelve Labors.",
-    "tags": ["hero", "strength", "labors", "demigod"]
+    "tags": ["hero", "strength", "labors", "demigod"],
+    "quote": "Even the bravest hero must face his fate."
   },
   {
     "image": "https://via.placeholder.com/150?text=Medusa",
     "title": "Medusa",
     "description": "A monstrous creature with snakes for hair whose gaze turns people to stone.",
-    "tags": ["creature", "monster", "gorgon", "mythical"]
+    "tags": ["creature", "monster", "gorgon", "mythical"],
+    "quote": "Even the bravest hero must face his fate."
   },
   {
     "image": "https://via.placeholder.com/150?text=Cerberus",
     "title": "Cerberus",
     "description": "The three-headed dog that guards the entrance to the underworld.",
-    "tags": ["creature", "guardian", "underworld", "mythical"]
+    "tags": ["creature", "guardian", "underworld", "mythical"],
+    "quote": "Even the bravest hero must face his fate."
   }
 ]
