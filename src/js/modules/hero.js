@@ -3,8 +3,11 @@ export function renderHero() {
   hero.classList.add('hero');
 
   hero.innerHTML = `
-    <h1>Mythology Database</h1>
-    <p>Explore myths, deities, and creatures from around the world.</p>
+    <div class="hero-content">
+      <h1>Myth Database</h1>
+      <p>Dive into the stories, gods, and creatures from cultures around the world.</p>
+      <button id="explore-btn">Explore Myths</button>
+    </div>
   `;
 
   return hero;
