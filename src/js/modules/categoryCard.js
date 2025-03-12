@@ -9,7 +9,7 @@ export function createCategoryCard(category) {
   // Add click event to navigate myth cards
   card.addEventListener("click", () => {
     // log selected category for now
-    console.log(`Selected category: $: {category.name}`);
+    console.log(`Selected category: ${category.name}`);
   });
 
   return card;
