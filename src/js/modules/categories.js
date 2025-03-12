@@ -7,6 +7,12 @@ export function renderCategories() {
   const container = document.createElement("div");
   container.className = "categories-container";
 
+  // Back button
+  const backButton = document.createElement("button");
+  backButton.id = "back-btn";
+  backButton.textContent = "Back to Home";
+  container.appendChild(backButton);
+
   categories.forEach((category) => {
     const card = document.createElement("div");
     card.className = "category-card";
