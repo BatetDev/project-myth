@@ -1,3 +1,5 @@
+import { createCategoryCard } from "./categoryCard.js";
+
 export function renderCategories() {
   const categories = [
     { name: "Greek", description: "Gods, heroes, and monsters from ancient Greece." },
@@ -13,13 +15,9 @@ export function renderCategories() {
   backButton.textContent = "Back to Home";
   container.appendChild(backButton);
 
+  // Render category cards
   categories.forEach((category) => {
-    const card = document.createElement("div");
-    card.className = "category-card";
-    card.innerHTML = `
-      <h3>${category.name}</h3>
-      <p>${category.description}</p>
-      `;
+    const card = createCategoryCard(category);
     container.appendChild(card);
   });
 
