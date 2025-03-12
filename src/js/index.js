@@ -1,11 +1,19 @@
 import "../styles/main.css";
 
-import { greet } from './modules/utils.js';
-console.log(greet("Myth Project!"));
-
 import { renderHero } from "./modules/hero.js";
-import { renderMythCards } from "./modules/mythCards.js";
+import { renderCategories } from "./modules/categories.js";
 
-document.body.prepend(renderHero());
 
-document.body.appendChild(renderMythCards());
+// Render hero section by default
+const heroElement = renderHero();
+document.body.appendChild(heroElement);
+
+// Add "Explore Myths" button event listener
+document.querySelector("#explore-btn").addEventListener("click", () => {
+  // Remove hero section
+  document.body.removeChild(heroElement);
+
+  // Render categories section
+  const categoriesElement = renderCategories();
+  document.body.appendChild(categoriesElement);
+});
