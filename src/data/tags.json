@@ -1,0 +1,5 @@
+{
+  "Culture": ["Greek", "Norse", "Celtic"],
+  "Domain": ["War", "Fire", "Water", "Sky", "Earth", "Death"],
+  "Class": ["God", "Hero", "Creature", "Artifact", "Location"]
+}

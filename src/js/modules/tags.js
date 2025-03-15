@@ -1,10 +1,7 @@
+import tagsData from "../../data/tags.json";
+
 export function renderTags() {
-  // Define tag groups
-  const tags = {
-    Pantheon: ["Greek", "Norse"],
-    Domain: ["War", "Sky", "Fire", "Earth"],
-    Class: ["Hero", "Deity", "Artifact", "Creature", "Location"],
-  };
+  const tags = tagsData;
 
   // Create a container for the tags
   const container = document.createElement("div");
