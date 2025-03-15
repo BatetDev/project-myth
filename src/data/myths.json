@@ -3,49 +3,140 @@
     "image": "https://via.placeholder.com/150?text=Zeus",
     "title": "Zeus",
     "description": "The king of the gods, ruler of Mount Olympus, and god of the sky, lightning, and thunder.",
-    "tags": ["god", "sky", "lightning", "Olympian"],
+    "tags": ["greek", "god", "sky", "thunder", "olympian"],
     "quote": "Even the bravest hero must face his fate."
   },
   {
     "image": "https://via.placeholder.com/150?text=Athena",
     "title": "Athena",
     "description": "The goddess of wisdom, warfare, and crafts. She is known for her strategic skill in battle.",
-    "tags": ["goddess", "wisdom", "warfare", "Olympian"],
-    "quote": "Even the bravest hero must face his fate."
+    "tags": ["greek", "goddess", "war", "wisdom", "olympian"],
+    "quote": "Victory belongs to the most prepared."
   },
   {
     "image": "https://via.placeholder.com/150?text=Poseidon",
     "title": "Poseidon",
     "description": "The god of the sea, earthquakes, and horses. He wields the trident as his symbol of power.",
-    "tags": ["god", "sea", "earthquake", "Olympian"],
-    "quote": "Even the bravest hero must face his fate2."
+    "tags": ["greek", "god", "sea", "earthquake", "olympian"],
+    "quote": "The depths hold secrets no mortal can fathom."
   },
   {
     "image": "https://via.placeholder.com/150?text=Hades",
     "title": "Hades",
     "description": "The god of the underworld and the dead. He rules over the afterlife from his dark kingdom.",
-    "tags": ["god", "underworld", "death", "non-Olympian"],
-    "quote": "Even the bravest hero must face his fate."
+    "tags": ["greek", "god", "underworld", "death", "non-olympian"],
+    "quote": "All paths lead to my domain."
   },
   {
     "image": "https://via.placeholder.com/150?text=Heracles",
     "title": "Heracles",
     "description": "A legendary hero known for his incredible strength and the completion of the Twelve Labors.",
-    "tags": ["hero", "strength", "labors", "demigod"],
-    "quote": "Even the bravest hero must face his fate."
+    "tags": ["greek", "hero", "strength", "labors", "demigod"],
+    "quote": "No task is too great for the willing heart."
   },
   {
     "image": "https://via.placeholder.com/150?text=Medusa",
     "title": "Medusa",
     "description": "A monstrous creature with snakes for hair whose gaze turns people to stone.",
-    "tags": ["creature", "monster", "gorgon", "mythical"],
-    "quote": "Even the bravest hero must face his fate."
+    "tags": ["greek", "creature", "monster", "gorgon", "mythical"],
+    "quote": "Beauty can be both a blessing and a curse."
   },
   {
     "image": "https://via.placeholder.com/150?text=Cerberus",
     "title": "Cerberus",
     "description": "The three-headed dog that guards the entrance to the underworld.",
-    "tags": ["creature", "guardian", "underworld", "mythical"],
-    "quote": "Even the bravest hero must face his fate."
+    "tags": ["greek", "creature", "guardian", "underworld", "mythical"],
+    "quote": "None shall pass without my permission."
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Odin",
+    "title": "Odin",
+    "description": "The Allfather of Norse mythology, god of war, wisdom, and death.",
+    "tags": ["norse", "god", "war", "wisdom", "death"],
+    "quote": "Knowledge comes at a cost."
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Thor",
+    "title": "Thor",
+    "description": "The god of thunder and protector of Asgard, wielding the mighty hammer Mjölnir.",
+    "tags": ["norse", "god", "thunder", "war", "asgardian"],
+    "quote": "With Mjölnir in hand, I defend the realms."
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Loki",
+    "title": "Loki",
+    "description": "The trickster god, known for his cunning and mischief.",
+    "tags": ["norse", "god", "trickster", "chaos", "asgardian"],
+    "quote": "Truth is often hidden beneath lies."
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Freyja",
+    "title": "Freyja",
+    "description": "The goddess of love, beauty, and fertility, as well as a master of magic.",
+    "tags": ["norse", "goddess", "love", "magic", "vanir"],
+    "quote": "Love conquers all, even the coldest hearts."
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Valhalla",
+    "title": "Valhalla",
+    "description": "The majestic hall where fallen warriors are taken by the Valkyries to feast with Odin.",
+    "tags": ["norse", "location", "war", "afterlife", "mythical"],
+    "quote": "Only the bravest earn a place in Valhalla."
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Fenrir",
+    "title": "Fenrir",
+    "description": "The giant wolf destined to bring chaos during Ragnarök.",
+    "tags": ["norse", "creature", "wolf", "destruction", "mythical"],
+    "quote": "Chaos is my destiny."
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Yggdrasil",
+    "title": "Yggdrasil",
+    "description": "The World Tree that connects the nine realms of Norse mythology.",
+    "tags": ["norse", "artifact", "tree", "cosmic", "mythical"],
+    "quote": "Through me, all worlds are united."
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Hel",
+    "title": "Hel",
+    "description": "The ruler of Helheim, the realm of the dead in Norse mythology.",
+    "tags": ["norse", "god", "underworld", "death", "non-asgardian"],
+    "quote": "In death, all are equal."
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Mjolnir",
+    "title": "Mjölnir",
+    "description": "The legendary hammer of Thor, capable of leveling mountains.",
+    "tags": ["norse", "artifact", "weapon", "thunder", "mythical"],
+    "quote": "Power unmatched, wielded by the worthy."
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Apollo",
+    "title": "Apollo",
+    "description": "The Greek god of the sun, music, and prophecy.",
+    "tags": ["greek", "god", "sun", "music", "olympian"],
+    "quote": "Let the light guide your path."
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Ares",
+    "title": "Ares",
+    "description": "The Greek god of war, known for his fierce and brutal nature.",
+    "tags": ["greek", "god", "war", "violence", "olympian"],
+    "quote": "War is my domain."
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Prometheus",
+    "title": "Prometheus",
+    "description": "A Titan who stole fire from the gods and gave it to humanity.",
+    "tags": ["greek", "titan", "fire", "creation", "mythical"],
+    "quote": "For knowledge, I defy the gods."
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Bifrost",
+    "title": "Bifröst",
+    "description": "The rainbow bridge connecting Asgard to Midgard in Norse mythology.",
+    "tags": ["norse", "location", "bridge", "cosmic", "mythical"],
+    "quote": "A bridge between worlds, guarded by Heimdall."
   }
 ]
