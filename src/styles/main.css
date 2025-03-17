@@ -35,16 +35,30 @@ body {
   margin: 0 auto;
 }
 
-.tag-button.active {
-  backgroun-color: #007bff;
-  color: #333;
+/* Tag Buttons */
+
+.tag-button {
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+.tag-button:hover {
+  background-color: #007bff;
+  color: #fff;
   border-color: #007bff;
 }
 
-.tag-button.active:hover {
-  background-color: #0056b3;
-  color: #fff;
+.tag-button.active {
+  background-color: #00aaff;
+  border-color: #deae00;
 }
+
+/* No Results Message */
 
 .no-results {
   font-size: 1.2rem;
