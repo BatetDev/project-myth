@@ -45,20 +45,30 @@ document.addEventListener("click", (event) => {
         if (selectedTags.includes(tag)) {
           selectedTags = selectedTags.filter((t) => t !== tag);
         } else {
-          selectedTags.push(tag);
+          selectedTags.push(tag); // Select tag
         }
 
-        // Highlight active tags
+        // Toggle the .active class on the tag button
         button.classList.toggle("active");
 
         // Filter myths based on selected tags
         const filteredMyths = filterMyths(myths, selectedTags);
 
-        // Clear existing myth cards and render new ones
+        // Clear existing myth cards and "No Results" message
         document.body.querySelector(".card-container")?.remove();
+        document.body.querySelector(".no-results")?.remove();
+
         if (filteredMyths.length > 0) {
+          // Render myth cards if results are found
           const mythCardsElement = renderMythCards(filteredMyths);
           document.body.appendChild(mythCardsElement);
+        } else {
+          // Display a "No Results" message if not matches are found
+          const noResultsMessage = document.createElement("div");
+          noResultsMessage.textContent =
+            "No myths found matching your selection";
+          noResultsMessage.className = "no-results";
+          document.body.appendChild(noResultsMessage);
         }
       });
     });
