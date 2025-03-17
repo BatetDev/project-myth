@@ -34,3 +34,14 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.tag-button.active {
+  backgroun-color: #007bff;
+  color: #333;
+  border-color: #007bff;
+}
+
+.tag-button.active:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
