@@ -2,141 +2,246 @@
   {
     "image": "https://via.placeholder.com/150?text=Zeus",
     "title": "Zeus",
-    "description": "The king of the gods, ruler of Mount Olympus, and god of the sky, lightning, and thunder.",
-    "tags": ["greek", "god", "sky", "thunder", "olympian"],
-    "quote": "Even the bravest hero must face his fate."
+    "description": "The king of the gods, ruler of Mount Olympus, and god of the sky and thunder.",
+    "tags": ["greek", "god", "air"],
+    "quote": "Zeus, the cloud-gatherer, rules with justice. — Homer, *The Iliad*"
   },
   {
     "image": "https://via.placeholder.com/150?text=Athena",
     "title": "Athena",
     "description": "The goddess of wisdom, warfare, and crafts. She is known for her strategic skill in battle.",
-    "tags": ["greek", "goddess", "war", "wisdom", "olympian"],
-    "quote": "Victory belongs to the most prepared."
-  },
-  {
-    "image": "https://via.placeholder.com/150?text=Poseidon",
-    "title": "Poseidon",
-    "description": "The god of the sea, earthquakes, and horses. He wields the trident as his symbol of power.",
-    "tags": ["greek", "god", "sea", "earthquake", "olympian"],
-    "quote": "The depths hold secrets no mortal can fathom."
-  },
-  {
-    "image": "https://via.placeholder.com/150?text=Hades",
-    "title": "Hades",
-    "description": "The god of the underworld and the dead. He rules over the afterlife from his dark kingdom.",
-    "tags": ["greek", "god", "underworld", "death", "non-olympian"],
-    "quote": "All paths lead to my domain."
+    "tags": ["greek", "god", "war"],
+    "quote": "Through war, wisdom conquers brute force. — Plato, referencing Athena"
   },
   {
     "image": "https://via.placeholder.com/150?text=Heracles",
     "title": "Heracles",
     "description": "A legendary hero known for his incredible strength and the completion of the Twelve Labors.",
-    "tags": ["greek", "hero", "strength", "labors", "demigod"],
-    "quote": "No task is too great for the willing heart."
-  },
-  {
-    "image": "https://via.placeholder.com/150?text=Medusa",
-    "title": "Medusa",
-    "description": "A monstrous creature with snakes for hair whose gaze turns people to stone.",
-    "tags": ["greek", "creature", "monster", "gorgon", "mythical"],
-    "quote": "Beauty can be both a blessing and a curse."
+    "tags": ["greek", "hero", "strength"],
+    "quote": "No man is so brave that he does not fear death. — Euripides, referencing Heracles"
   },
   {
     "image": "https://via.placeholder.com/150?text=Cerberus",
     "title": "Cerberus",
     "description": "The three-headed dog that guards the entrance to the underworld.",
-    "tags": ["greek", "creature", "guardian", "underworld", "mythical"],
-    "quote": "None shall pass without my permission."
+    "tags": ["greek", "creature", "guardian", "earth"],
+    "quote": "Even the gates of Hades are guarded by Cerberus. — Virgil, *Aeneid*"
   },
   {
-    "image": "https://via.placeholder.com/150?text=Odin",
-    "title": "Odin",
-    "description": "The Allfather of Norse mythology, god of war, wisdom, and death.",
-    "tags": ["norse", "god", "war", "wisdom", "death"],
-    "quote": "Knowledge comes at a cost."
+    "image": "https://via.placeholder.com/150?text=Mount+Olympus",
+    "title": "Mount Olympus",
+    "description": "The home of the Greek gods, located high above the clouds.",
+    "tags": ["greek", "location", "air"],
+    "quote": "On Olympus, gods dwell among the stars. — Hesiod, *Theogony*"
   },
   {
     "image": "https://via.placeholder.com/150?text=Thor",
     "title": "Thor",
     "description": "The god of thunder and protector of Asgard, wielding the mighty hammer Mjölnir.",
-    "tags": ["norse", "god", "thunder", "war", "asgardian"],
-    "quote": "With Mjölnir in hand, I defend the realms."
+    "tags": ["norse", "god", "air"],
+    "quote": "Thor's hammer protects the realms from chaos. — Snorri Sturluson, *Prose Edda*"
   },
   {
     "image": "https://via.placeholder.com/150?text=Loki",
     "title": "Loki",
     "description": "The trickster god, known for his cunning and mischief.",
-    "tags": ["norse", "god", "trickster", "chaos", "asgardian"],
-    "quote": "Truth is often hidden beneath lies."
+    "tags": ["norse", "god", "fire"],
+    "quote": "Loki's lies weave threads of fate. — Snorri Sturluson, *Prose Edda*"
   },
   {
-    "image": "https://via.placeholder.com/150?text=Freyja",
-    "title": "Freyja",
-    "description": "The goddess of love, beauty, and fertility, as well as a master of magic.",
-    "tags": ["norse", "goddess", "love", "magic", "vanir"],
-    "quote": "Love conquers all, even the coldest hearts."
-  },
-  {
-    "image": "https://via.placeholder.com/150?text=Valhalla",
-    "title": "Valhalla",
-    "description": "The majestic hall where fallen warriors are taken by the Valkyries to feast with Odin.",
-    "tags": ["norse", "location", "war", "afterlife", "mythical"],
-    "quote": "Only the bravest earn a place in Valhalla."
+    "image": "https://via.placeholder.com/150?text=Odin",
+    "title": "Odin",
+    "description": "The Allfather of Norse mythology, god of war, wisdom, and death.",
+    "tags": ["norse", "god", "war"],
+    "quote": "For wisdom, Odin sacrificed his eye. — Snorri Sturluson, *Prose Edda*"
   },
   {
     "image": "https://via.placeholder.com/150?text=Fenrir",
     "title": "Fenrir",
     "description": "The giant wolf destined to bring chaos during Ragnarök.",
-    "tags": ["norse", "creature", "wolf", "destruction", "mythical"],
-    "quote": "Chaos is my destiny."
+    "tags": ["norse", "creature", "destruction", "earth"],
+    "quote": "Fenrir's fangs shall pierce the heavens. — Völuspá, *Poetic Edda*"
   },
   {
-    "image": "https://via.placeholder.com/150?text=Yggdrasil",
-    "title": "Yggdrasil",
-    "description": "The World Tree that connects the nine realms of Norse mythology.",
-    "tags": ["norse", "artifact", "tree", "cosmic", "mythical"],
-    "quote": "Through me, all worlds are united."
+    "image": "https://via.placeholder.com/150?text=Asgard",
+    "title": "Asgard",
+    "description": "The realm of the gods in Norse mythology, connected to Midgard by the Bifröst bridge.",
+    "tags": ["norse", "location", "air"],
+    "quote": "Asgard stands eternal, until the end of days. — Snorri Sturluson, *Prose Edda*"
   },
   {
-    "image": "https://via.placeholder.com/150?text=Hel",
-    "title": "Hel",
-    "description": "The ruler of Helheim, the realm of the dead in Norse mythology.",
-    "tags": ["norse", "god", "underworld", "death", "non-asgardian"],
-    "quote": "In death, all are equal."
+    "image": "https://via.placeholder.com/150?text=Dagda",
+    "title": "Dagda",
+    "description": "The father of all gods in Celtic mythology, associated with life, death, and rebirth.",
+    "tags": ["celtic", "god", "earth"],
+    "quote": "Dagda holds the cauldron of plenty. — Irish Mythology, *The Book of Invasions*"
   },
   {
-    "image": "https://via.placeholder.com/150?text=Mjolnir",
-    "title": "Mjölnir",
-    "description": "The legendary hammer of Thor, capable of leveling mountains.",
-    "tags": ["norse", "artifact", "weapon", "thunder", "mythical"],
-    "quote": "Power unmatched, wielded by the worthy."
+    "image": "https://via.placeholder.com/150?text=Cuchulainn",
+    "title": "Cú Chulainn",
+    "description": "A legendary hero of Irish mythology, known for his unmatched strength and bravery.",
+    "tags": ["celtic", "hero", "strength"],
+    "quote": "Cú Chulainn stood alone against armies. — Táin Bó Cúailnge (*The Cattle Raid of Cooley*)"
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Banshee",
+    "title": "Banshee",
+    "description": "A female spirit in Irish folklore whose wail foretells death.",
+    "tags": ["celtic", "creature", "death"],
+    "quote": "The banshee's cry echoes through the night. — Irish Folklore"
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Stonehenge",
+    "title": "Stonehenge",
+    "description": "A mysterious prehistoric monument in England, steeped in Celtic legend.",
+    "tags": ["celtic", "location", "earth"],
+    "quote": "Stonehenge whispers secrets of the ancients. — Geoffrey of Monmouth, *Historia Regum Britanniae*"
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Excalibur",
+    "title": "Excalibur",
+    "description": "The legendary sword of King Arthur, symbolizing divine kingship and power.",
+    "tags": ["celtic", "artifact", "war"],
+    "quote": "From the stone, Excalibur was drawn by destiny. — Thomas Malory, *Le Morte d'Arthur*"
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Poseidon",
+    "title": "Poseidon",
+    "description": "The god of the sea, earthquakes, and horses. He wields the trident as his symbol of power.",
+    "tags": ["greek", "god", "water"],
+    "quote": "The sea obeys Poseidon's will. — Homer, *The Odyssey*"
   },
   {
     "image": "https://via.placeholder.com/150?text=Apollo",
     "title": "Apollo",
-    "description": "The Greek god of the sun, music, and prophecy.",
-    "tags": ["greek", "god", "sun", "music", "olympian"],
-    "quote": "Let the light guide your path."
+    "description": "The god of the sun, music, prophecy, and healing.",
+    "tags": ["greek", "god", "fire"],
+    "quote": "Apollo's arrows bring both death and cure. — Ovid, *Metamorphoses*"
   },
   {
     "image": "https://via.placeholder.com/150?text=Ares",
     "title": "Ares",
-    "description": "The Greek god of war, known for his fierce and brutal nature.",
-    "tags": ["greek", "god", "war", "violence", "olympian"],
-    "quote": "War is my domain."
+    "description": "The god of war, known for his fierce and brutal nature.",
+    "tags": ["greek", "god", "war"],
+    "quote": "Ares revels in the chaos of battle. — Hesiod, *Theogony*"
   },
   {
-    "image": "https://via.placeholder.com/150?text=Prometheus",
-    "title": "Prometheus",
-    "description": "A Titan who stole fire from the gods and gave it to humanity.",
-    "tags": ["greek", "titan", "fire", "creation", "mythical"],
-    "quote": "For knowledge, I defy the gods."
+    "image": "https://via.placeholder.com/150?text=Medusa",
+    "title": "Medusa",
+    "description": "A monstrous creature with snakes for hair whose gaze turns people to stone.",
+    "tags": ["greek", "creature", "guardian", "earth"],
+    "quote": "Medusa's gaze froze heroes in their tracks. — Ovid, *Metamorphoses*"
   },
   {
-    "image": "https://via.placeholder.com/150?text=Bifrost",
-    "title": "Bifröst",
-    "description": "The rainbow bridge connecting Asgard to Midgard in Norse mythology.",
-    "tags": ["norse", "location", "bridge", "cosmic", "mythical"],
-    "quote": "A bridge between worlds, guarded by Heimdall."
+    "image": "https://via.placeholder.com/150?text=Delphi",
+    "title": "Delphi",
+    "description": "The sacred site of the Oracle of Delphi, where prophecies were delivered in Apollo's name.",
+    "tags": ["greek", "location", "air"],
+    "quote": "Know thyself, inscribed at Delphi. — Ancient Greek Maxim"
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Freyja",
+    "title": "Freyja",
+    "description": "The goddess of love, beauty, and fertility, as well as a master of magic.",
+    "tags": ["norse", "god", "earth"],
+    "quote": "Freyja weaves spells and rides her chariot drawn by cats. — Snorri Sturluson, *Prose Edda*"
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Heimdall",
+    "title": "Heimdall",
+    "description": "The guardian of the Bifröst bridge, watching over Asgard.",
+    "tags": ["norse", "god", "air"],
+    "quote": "Heimdall sees all, even the smallest blade of grass. — Völuspá, *Poetic Edda*"
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Sigurd",
+    "title": "Sigurd",
+    "description": "A legendary hero who slew the dragon Fafnir and gained its treasure.",
+    "tags": ["norse", "hero", "strength"],
+    "quote": "Sigurd's courage was unmatched, even among gods. — Völsunga Saga"
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Jormungandr",
+    "title": "Jormungandr",
+    "description": "The world serpent destined to fight Thor during Ragnarök.",
+    "tags": ["norse", "creature", "destruction", "water"],
+    "quote": "Thor and Jormungandr shall meet in their final battle. — Völuspá, *Poetic Edda*"
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Valhalla",
+    "title": "Valhalla",
+    "description": "The majestic hall where fallen warriors are taken by the Valkyries to feast with Odin.",
+    "tags": ["norse", "location", "war"],
+    "quote": "Valhalla awaits the bravest of warriors. — Snorri Sturluson, *Prose Edda*"
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Lugh",
+    "title": "Lugh",
+    "description": "The master of all skills, associated with light and craftsmanship.",
+    "tags": ["celtic", "god", "fire"],
+    "quote": "Lugh crafted weapons that could pierce any armor. — Irish Mythology"
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Morrigan",
+    "title": "Morrigan",
+    "description": "The goddess of war and fate, often appearing as a crow.",
+    "tags": ["celtic", "god", "war"],
+    "quote": "Morrigan foretells victory or doom on the battlefield. — Táin Bó Cúailnge"
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Fionn+MacCumhaill",
+    "title": "Fionn Mac Cumhaill",
+    "description": "A legendary hero and leader of the Fianna, known for his wisdom and bravery.",
+    "tags": ["celtic", "hero", "strength"],
+    "quote": "Fionn's wisdom came from tasting the Salmon of Knowledge. — Irish Folklore"
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Dullahan",
+    "title": "Dullahan",
+    "description": "A headless rider who carries his own severed head and foretells death.",
+    "tags": ["celtic", "creature", "death"],
+    "quote": "The Dullahan rides when death is near. — Irish Folklore"
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Newgrange",
+    "title": "Newgrange",
+    "description": "An ancient passage tomb in Ireland, aligned with the winter solstice sunrise.",
+    "tags": ["celtic", "location", "earth"],
+    "quote": "Newgrange holds the secrets of the ancients. — Irish Archaeological Studies"
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Gungnir",
+    "title": "Gungnir",
+    "description": "Odin's magical spear, said to never miss its mark.",
+    "tags": ["norse", "artifact", "war"],
+    "quote": "Gungnir strikes true, guided by Odin's hand. — Snorri Sturluson, *Prose Edda*"
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Brigid",
+    "title": "Brigid",
+    "description": "The goddess of poetry, healing, and smithcraft.",
+    "tags": ["celtic", "god", "fire"],
+    "quote": "Brigid's flame burns bright with inspiration. — Irish Mythology"
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Hela",
+    "title": "Hela",
+    "description": "The ruler of Helheim, the realm of the dead in Norse mythology.",
+    "tags": ["norse", "god", "death"],
+    "quote": "Hela guards the gates of Helheim. — Snorri Sturluson, *Prose Edda*"
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Tyr",
+    "title": "Tyr",
+    "description": "The god of law and heroic glory, known for sacrificing his hand to bind Fenrir.",
+    "tags": ["norse", "god", "war"],
+    "quote": "Tyr's sacrifice ensured justice for all. — Snorri Sturluson, *Prose Edda*"
+  },
+  {
+    "image": "https://via.placeholder.com/150?text=Connla's+Well",
+    "title": "Connla's Well",
+    "description": "A mythical well in Celtic legend, said to be the source of all wisdom.",
+    "tags": ["celtic", "location", "water"],
+    "quote": "Connla's Well grants knowledge to those who seek it. — Irish Mythology"
   }
 ]
