@@ -8,19 +8,19 @@ export function renderTags() {
   const container = document.createElement("div");
   container.className = "tags-container";
 
-  // Add a "Clear All Tags" button
-  const clearButton = document.createElement("button");
-  clearButton.id = "clear-tags-btn";
-  clearButton.textContent = "Clear All Tags";
-  clearButton.style.marginBottom = "20px";
-  container.appendChild(clearButton);
-
   // Back to Home button
   const backButton = document.createElement("button");
   backButton.id = "back-btn";
   backButton.textContent = "Back to Home";
   backButton.style.marginBottom = "20px";
   container.appendChild(backButton);
+
+  // Add a "Clear All Tags" button
+  const clearButton = document.createElement("button");
+  clearButton.id = "clear-tags-btn";
+  clearButton.textContent = "Clear All Tags";
+  clearButton.style.marginBottom = "20px";
+  container.appendChild(clearButton);
 
   // Render each group of tags
   for (const [group, tagList] of Object.entries(tags)) {

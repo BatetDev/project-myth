@@ -74,4 +74,23 @@ document.addEventListener("click", (event) => {
       });
     });
   }
+
+  // Add event listener for the "Clear All Tags" button
+  if (event.target.id === "clear-tags-btn") {
+    // Clear the selectedTags array
+    selectedTags = [];
+
+    // Remove the .active class from all tag buttons
+    document.querySelectorAll(".tag-button").forEach((button) => {
+      button.classList.remove("active");
+    });
+
+    // Clear existing myth cards and "No Results" message
+    document.body.querySelector(".card-container")?.remove();
+    document.body.querySelector(".no-results")?.remove();
+
+    // Render all myth cards
+    const mythCardsElement = renderMythCards(myths);
+    document.body.appendChild(mythCardsElement);
+  }
 });
