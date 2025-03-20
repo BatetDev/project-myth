@@ -1,3 +1,4 @@
+/* tags.js */
 import tagsData from "../../data/tags.json";
 
 export function renderTags() {
@@ -6,6 +7,13 @@ export function renderTags() {
   // Create a container for the tags
   const container = document.createElement("div");
   container.className = "tags-container";
+
+  // Add a "Clear All Tags" button
+  const clearButton = document.createElement("button");
+  clearButton.id = "clear-tags-btn";
+  clearButton.textContent = "Clear All Tags";
+  clearButton.style.marginBottom = "20px";
+  container.appendChild(clearButton);
 
   // Back to Home button
   const backButton = document.createElement("button");

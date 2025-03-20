@@ -1,3 +1,4 @@
+/* mythCards.js */
 export function renderMythCards(filteredMyths) {
   const cardContainer = document.createElement("div");
   cardContainer.classList.add("card-container");

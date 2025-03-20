@@ -1,3 +1,4 @@
+/* Index.js */
 import "../styles/main.css";
 import "../styles/myth-card.css";
 
