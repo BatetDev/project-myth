@@ -1,7 +1,7 @@
 /* hero.js */
 export function renderHero() {
-  const hero = document.createElement("section");
-  hero.classList.add("hero");
+  const hero = document.createElement('section');
+  hero.classList.add('hero');
 
   hero.innerHTML = `
     <div class="hero-content">
